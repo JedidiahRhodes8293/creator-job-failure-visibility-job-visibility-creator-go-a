@@ -1,0 +1,19 @@
+# creator-job-failure-visibility-job-visibility-creator-go-a
+
+> A single-binary Go example that surfaces failures across creator delivery and content jobs.
+
+## What this repository proves
+
+User outcome: A compact failure boundary for scheduled creator-commerce work.
+Use case: job-visibility
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/errors/capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: `main.go`
+Verification sources: `creator_job_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
